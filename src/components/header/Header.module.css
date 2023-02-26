@@ -1,0 +1,55 @@
+@media (min-width:1200px) {
+  .header {
+    width: 1120px;
+    gap: 360px;
+    margin: 0 auto;
+    margin-top: 72px;
+  }
+
+  .link {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .lang {
+    width: 120px;
+    height: 40px;
+  }
+}
+
+@media (max-width:1200px) {
+  .header {
+    width: 681px;
+    gap: 160px;
+    margin: 0 auto;
+    margin-top: 36px;
+  }
+
+  .link {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .lang {
+    width: 100px;
+    height: 33px;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+
+  color: #272727;
+}
+
+.logo {
+  width: 158px;
+  height: 44px;
+}
