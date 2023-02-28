@@ -70,6 +70,7 @@
 .header {
     display: flex;
     align-items: center;
+    transition: all 1s;
 
 }
 
@@ -86,13 +87,53 @@
     height: 44px;
 }
 
-.menu_icon {
-    width: 25px;
-    height: 24px;
+.logo_close {
+    display: none;
+}
+
+.lang_open {
+    display: flex;
+    width: 140px;
+    height: 46.67px;
+}
+
+.menu {
+    transition: all 1s;
 }
 
 .menu_open {
+    position: absolute;
+    left: 0;
+    top: 0;
     background-color: #E8E8E8;
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20%;
+    align-items: center;
+    gap: 94px;
+    transition: all 1s;
+}
+
+.menu_link {
+    display: none;
+}
+
+.menu_link_open {
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+
+}
+
+.menu_icon {
+    width: 25px;
+    height: 24px;
+    transition: all 1s;
 }
