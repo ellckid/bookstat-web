@@ -1,0 +1,29 @@
+@media (min-width:1200px) {
+  .lang {
+    width: 120px;
+    height: 40px;
+  }
+}
+
+@media (max-width:1200px) {
+  .lang {
+    width: 100px;
+    height: 33px;
+  }
+}
+
+@media (max-width:768px) {
+  .lang {
+    display: none;
+  }
+
+  .lang_open {
+    display: flex;
+  }
+}
+
+
+
+.lang_link {
+  display: flex;
+}
