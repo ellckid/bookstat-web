@@ -51,6 +51,10 @@
   .menu {
     display: flex;
   }
+
+  .lang_close {
+    display: none;
+  }
 }
 
 .header {
@@ -89,10 +93,15 @@
   display: none;
 }
 
+
+
+.lang_open {
+  display: flex;
+}
+
 .menu {
   background-color: transparent;
   border: none;
-  transition: all 1s;
 }
 
 .menu_open {
@@ -104,10 +113,10 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding-top: 20%;
+  padding-top: 47px;
   align-items: center;
   gap: 94px;
-  transition: all 1s;
+  transition: background 1s;
 }
 
 .menu_link {
@@ -123,15 +132,25 @@
   line-height: 39px;
 
   color: #000000;
+  transition: color 0.5s;
+}
 
+.menu_icon_container {
+  display: flex;
+  width: 80%;
+  justify-content: flex-end;
 }
 
 .menu_icon {
   width: 25px;
   height: 24px;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 
 .menu_icon:hover {
   opacity: 90%;
+}
+
+.menu_icon_rotate {
+  transform: rotate(90deg);
 }

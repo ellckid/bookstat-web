@@ -14,11 +14,8 @@
 
 @media (max-width:768px) {
   .lang {
-    display: none;
-  }
-
-  .lang_open {
-    display: flex;
+    width: 120px;
+    height: 40px;
   }
 }
 
