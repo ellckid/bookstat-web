@@ -1,0 +1,29 @@
+.content_container {
+  display: flex;
+  height: fit-content;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width:1200px) {
+  .content_container {
+    width: 1194px;
+    gap: 30px;
+  }
+}
+
+@media (max-width:1200px) {
+  .content_container {
+    width: 681px;
+    gap: 80px;
+  }
+}
+
+@media (max-width:768px) {
+  .content_container {
+    width: 80%;
+    min-width: 320px;
+    gap: 60px;
+  }
+}
