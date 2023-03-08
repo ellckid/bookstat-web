@@ -1,7 +1,7 @@
 @media (min-width:1200px) {
   .hello_container {
     width: 1120px;
-    height: 680px;
+    height: 90vh;
     gap: 245px;
     align-items: center;
   }

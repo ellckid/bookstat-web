@@ -6,6 +6,7 @@ import Header from "../components/header/Header";
 import Loader from "../components/UI/Loader";
 import { context } from "../../src/index";
 import HelloBlock from "../components/blocks/HelloBlock";
+import CollectBlock from "../components/blocks/CollectBlock";
 
 function MainPage() {
   const { store } = useContext(context);
@@ -17,6 +18,7 @@ function MainPage() {
       {/* header */}
       <Header></Header>
       <HelloBlock></HelloBlock>
+      <CollectBlock></CollectBlock>
     </section >
   )
 }
