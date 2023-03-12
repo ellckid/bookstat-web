@@ -5,6 +5,7 @@
     gap: 160px;
   }
 
+
   .left {
     flex-direction: row;
   }
@@ -101,6 +102,7 @@
     width: 150px;
     height: 150px;
   }
+
 }
 
 .block_container {

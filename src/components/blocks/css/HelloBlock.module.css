@@ -27,6 +27,7 @@
   .hello_blob {
     width: 396px;
     height: 456px;
+    margin-bottom: 10%;
   }
 }
 
@@ -59,6 +60,7 @@
   .hello_blob {
     width: 230px;
     height: 260px;
+    margin-bottom: 10%;
   }
 }
 
@@ -112,6 +114,7 @@
 .title_container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 10%;
 }
 
 .title_h1 {
