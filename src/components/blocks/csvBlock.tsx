@@ -20,16 +20,16 @@ const CsvBlock = function (prop: csvBlockProps) {
 
   return (
 
-    <table>
+    <table className={classes.csv_table}>
       <thead>
-        <tr>
-          <th>Name</th>
-          <th>Author</th>
-          <th>User Rating</th>
-          <th>Reviews</th>
-          <th>Price</th>
-          <th>Year</th>
-          <th>Genre</th>
+        <tr >
+          <th className={classes.table_headrow}>Name</th>
+          <th className={classes.table_headrow}>Author</th>
+          <th className={classes.table_headrow}>User Rating</th>
+          <th className={classes.table_headrow}>Reviews</th>
+          <th className={classes.table_headrow}>Price</th>
+          <th className={classes.table_headrow}>Year</th>
+          <th className={classes.table_headrow}>Genre</th>
         </tr>
       </thead>
       <tbody>
@@ -37,13 +37,13 @@ const CsvBlock = function (prop: csvBlockProps) {
           prop.data.map((item, id) => (
             <div key={id}>
               <tr>
-                <td>{item.Name}</td>
-                <td>{item.Author}</td>
-                <td>{item.User_Rating}</td>
-                <td>{item.Reviews}</td>
-                <td>{item.Price}</td>
-                <td>{item.Year}</td>
-                <td>{item.Genre}</td>
+                <td className={classes.table_bodyrow}>{item.Name}</td>
+                <td className={classes.table_bodyrow}>{item.Author}</td>
+                <td className={classes.table_bodyrow}>{item.User_Rating}</td>
+                <td className={classes.table_bodyrow}>{item.Reviews}</td>
+                <td className={classes.table_bodyrow}>{item.Price}</td>
+                <td className={classes.table_bodyrow}>{item.Year}</td>
+                <td className={classes.table_bodyrow}>{item.Genre}</td>
               </tr>
             </div>
           ))

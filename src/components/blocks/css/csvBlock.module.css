@@ -1,0 +1,59 @@
+.csv_table {
+  display: flex;
+  flex-direction: column;
+  width: 1100px;
+  height: 800px;
+  overflow: hidden;
+  gap: 0;
+  margin: 0 auto;
+  border: 1px solid #F3F3F4;
+  padding: 0;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  border-top-width: 0;
+  border-right-width: 0;
+
+}
+
+.table_headrow {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #F3F3F4;
+  width: 157px;
+  height: 40px;
+  border-collapse: collapse;
+  border-left-width: 0;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  font-family: "inter";
+
+
+}
+
+.table_bodyrow {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+
+  padding: 8px 12px;
+  border: 1px solid #F3F3F4;
+  width: 157px;
+  border-collapse: collapse;
+  border-left-width: 0;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Roboto Mono", monospace;
+
+}
+
+tr {
+  display: flex;
+}

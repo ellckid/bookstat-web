@@ -34,6 +34,8 @@ function MainPage() {
         So after the dataset is downloaded we could start cleaning the data."
       ></BlockWithIcon>
 
+      <CsvBlock data={csvData}></CsvBlock>
+
       {/* data visualisation block with pie chart */}
       <DataVisBlock></DataVisBlock>
 
@@ -55,7 +57,7 @@ function MainPage() {
         title="Conclusion"
         subtitle="Finally, we can see some generic and more specific information from this data. By this, we can understand that fiction books are more popular than non-fiction. But from this data, we cannot understand what can make a regular book a bestseller book. "
       ></BlockWithIcon>
-      <CsvBlock data={csvData}></CsvBlock>
+
 
 
     </section >
