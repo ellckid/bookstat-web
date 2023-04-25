@@ -10,6 +10,9 @@ import BlockWithIcon from "../components/blocks/BlockWithIcon";
 import DataVisBlock from "../components/blocks/DataVisBlock";
 import CsvBlock from "../components/blocks/csvBlock";
 import csvData from "../data/data.json"
+import Footer from "../components/footer/footer";
+import BallBlock from "../components/blocks/ballBlock";
+import RatingScore from "../components/blocks/RatingScore";
 
 function MainPage() {
   const { store } = useContext(context);
@@ -34,10 +37,8 @@ function MainPage() {
         So after the dataset is downloaded we could start cleaning the data."
       ></BlockWithIcon>
 
-      <CsvBlock data={csvData}></CsvBlock>
+      {/* <CsvBlock data={csvData}></CsvBlock> */}
 
-      {/* data visualisation block with pie chart */}
-      <DataVisBlock></DataVisBlock>
 
       {/* cleaning data block */}
       <BlockWithIcon
@@ -45,11 +46,25 @@ function MainPage() {
         isIconLeft={true}
         title="Cleaning the data"
         subtitle="Usually, this step can be not so easy.
-        In this case, we take an open dataset from Kaggle. 
-        You can find the link for this dataset below. 
-        So after the dataset is downloaded we could start cleaning the data."
+      In this case, we take an open dataset from Kaggle.
+      You can find the link for this dataset below.
+      So after the dataset is downloaded we could start cleaning the data."
       ></BlockWithIcon>
 
+      {/* data visualisation block with pie chart */}
+      <DataVisBlock></DataVisBlock>
+
+      {/* Rating score*/}
+      <RatingScore></RatingScore>
+
+      <img className={classes.big_balls} src="/assets/graph1.png"></img>
+      <img className={classes.big_balls} src="/assets/graph.png"></img>
+      {/* Ball block*/}
+      <BallBlock></BallBlock>
+
+
+
+      <img className={classes.big_balls} src="/assets/big_balls.png"></img>
       {/* conclusion block */}
       <BlockWithIcon
         icon_src="/assets/final.svg"
@@ -58,7 +73,8 @@ function MainPage() {
         subtitle="Finally, we can see some generic and more specific information from this data. By this, we can understand that fiction books are more popular than non-fiction. But from this data, we cannot understand what can make a regular book a bestseller book. "
       ></BlockWithIcon>
 
-
+      {/* footer */}
+      <Footer></Footer>
 
     </section >
   )
