@@ -30,7 +30,7 @@ function MainPage() {
 
             {/* collect block */}
             <BlockWithIcon
-                icon_src="/assets/download.svg"
+                icon_src="/bookstat-web/assets/download.svg"
                 isIconLeft={false}
                 title="Collecting the data"
                 subtitle="Usually, this step can be not so easy. In this case, we take an open dataset from Kaggle. You can find the link for this dataset below.
@@ -42,7 +42,7 @@ function MainPage() {
 
             {/* cleaning data block */}
             <BlockWithIcon
-                icon_src="/assets/bin.svg"
+                icon_src="/bookstat-web/assets/bin.svg"
                 isIconLeft={true}
                 title="Cleaning the data"
                 subtitle="Usually, this step can be not so easy.
@@ -57,17 +57,17 @@ function MainPage() {
             {/* Rating score*/}
             <RatingScore></RatingScore>
 
-            <img className={classes.big_balls} src="/assets/graph1.png"></img>
-            <img className={classes.big_balls} src="/assets/graph.png"></img>
+            <img className={classes.big_balls} src="/bookstat-web/assets/graph1.png"></img>
+            <img className={classes.big_balls} src="/bookstat-web/assets/graph.png"></img>
             {/* Ball block*/}
             <BallBlock></BallBlock>
 
 
 
-            <img className={classes.big_balls} src="/assets/big_balls.png"></img>
+            <img className={classes.big_balls} src="/bookstat-web/assets/big_balls.png"></img>
             {/* conclusion block */}
             <BlockWithIcon
-                icon_src="/assets/final.svg"
+                icon_src="/bookstat-webs/assets/final.svg"
                 isIconLeft={false}
                 title="Conclusion"
                 subtitle="Finally, we can see some generic and more specific information from this data. By this, we can understand that fiction books are more popular than non-fiction. But from this data, we cannot understand what can make a regular book a bestseller book. "
