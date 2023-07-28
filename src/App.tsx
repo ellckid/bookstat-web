@@ -10,10 +10,7 @@ function App() {
                 <AppRouter />
             </section>
         </BrowserRouter>
-
     )
-
-
 }
 
 export default observer(App);
